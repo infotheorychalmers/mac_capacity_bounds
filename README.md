@@ -1,7 +1,7 @@
 MAC capacity bounds
 ===================
 
-Code for the upper bound and the lower bound on the MAC sum-rate capacity.
+Numerical routines for the computation of an upper bound and the lower bound on the MAC sum-rate capacity of a Rayleigh block-fading channel with no a priori CSI available at the transmitters and the receiver.
 
 Dependencies
 ------------
@@ -12,9 +12,9 @@ The code is written in C/C++ using the following libraries
 
 Compiling
 ---------
-Inorder to compile the code for each bound
- * cd to the specific directory.
- * cd inside to the 'build' directory and run
+In order to compile the code implementin each bound each bound
+ * move to the specific directory.
+ * move inside 'build' directory and run
 ```
 	make all
 ```
@@ -22,11 +22,11 @@ This will compile the code. All the output files (.o files) and executable named
 
 Running
 -------
-The options for running each bound can be checked by using help option as
+The options available for each bound can be consulted using the help option:
 ```
 		run --help
 ```
-For example if you have to get Gaussian lower bound for 5 user scenario, coherence interval 20 channel uses, and SNR values from 0 to 10 you run the following
+For example, if you want to compute the Gaussian lower bound for 5 users, coherence interval 20, and SNR values from 0 to 10, run the following
 ```
 		run --K 5 --T 20 --MCX 20000 --startSNR 0 --deltaSNR 1 --endSNR 10
 ```
