@@ -6,9 +6,9 @@ Code for the upper bound and the lower bound on the MAC sum-rate capacity.
 Dependencies
 ------------
 The code is written in C/C++ using the following libraries 
-	* GNU Scientific library (version 1.14)
-	* IT++ (version 4.3.1)
-	* boost (version 1.42)
+		*		GNU Scientific library (version 1.14)
+		*		IT++ (version 4.3.1)
+		*		boost (version 1.42)
 
 Compiling
 ---------
