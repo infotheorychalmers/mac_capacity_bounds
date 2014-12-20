@@ -1,7 +1,7 @@
 MAC capacity bounds
 ===================
 
-Numerical routines for the computation of an upper bound and the lower bound on the MAC sum-rate capacity of a Rayleigh block-fading channel with no a priori CSI available at the transmitters and the receiver.
+Numerical routines for the computation of an upper bound and a lower bound on the MAC sum-rate capacity of a Rayleigh block-fading channel with no a priori CSI available at the transmitters and the receiver.
 
 Dependencies
 ------------
@@ -12,7 +12,7 @@ The code is written in C/C++ using the following libraries
 
 Compiling
 ---------
-In order to compile the code implementin each bound each bound
+In order to compile the code that implements each bound, the following steps are necessary
  * move to the specific directory.
  * move inside 'build' directory and run
 ```
