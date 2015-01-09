@@ -6,11 +6,10 @@ This document explains how to get the code to compile and run in MAC OS. First w
  * Install MKL ( or any other BLAS LAPACK library )
    * Download Intel Paralell Studio for MAC OS from [here](https://software.intel.com/en-us/intel-parallel-studio-xe).
    * Double click on the dmg file and follow the instructions to install it.
-   * Add the following statement inside ~/.bash_profile file
+   * Add the following statement inside ~/.bash_profile file and restart the terminal.
 ```
    export DYLD_LIBRARY_PATH=/opt/intel/lib:/opt/intel/mkl/lib:$DYLD_LIBRARY_PATH
 ```
-   * Close and reopen terminal.
 
 
 
