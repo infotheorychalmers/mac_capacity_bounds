@@ -12,7 +12,9 @@ This document explains how to get the code to compile and run in MAC OS. First w
 ```
    * Close and reopen terminal.
 
- * Install pkg-config
+
+
+* Install pkg-config
    * Download the latest version from [here](http://pkgconfig.freedesktop.org/releases/pkg-config-0.28.tar.gz).
    * Unzip the downloaded file.
    * Move to the unzipped directory.
