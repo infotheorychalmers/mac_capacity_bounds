@@ -15,7 +15,7 @@ LDFLAGS +=  `pkg-config --libs gsl`
 #BOOST values
 #CFLAGS += -I<PATH/TO/BOOST/include>
 #LDFLAGS += -L<PATH/TO/BOOST/lib>
-LDFLAGS += -lboost_thread -lboost_program_options -lboost_system
+LDFLAGS += -lboost_thread -lboost_program_options -lboost_system -lboost_date_time
 
 #Code values
 CFLAGS += -I$(INC) 

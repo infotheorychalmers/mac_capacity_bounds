@@ -13,8 +13,9 @@ CFLAGS += `pkg-config --cflags gsl`
 LDFLAGS +=  `pkg-config --libs gsl`
 
 #BOOST values
-CFLAGS += -I/beda/sw/apps/boost/1.42/include
-LDFLAGS += -L/beda/sw/apps/boost/1.42/lib -lboost_thread -lboost_program_options
+#CFLAGS += -I<PATH/TO/BOOST/include>
+#LDFLAGS += -L<PATH/TO/BOOST/lib>
+LDFLAGS += -lboost_thread -lboost_program_options -lboost_system -lboost_date_time
 
 
 #Code values
