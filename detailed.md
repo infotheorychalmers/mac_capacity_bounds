@@ -1,12 +1,12 @@
 Detailed installation for MAC
 =============================
 
-This document explains how to get the code to compile and run in MAC OS. First we have to install the dependencies, the steps for the same are as follows:
+This document provides one way to get our code running on a MAC OS X. 
 
  * Install MKL ( or any other BLAS LAPACK library )
-   * Download Intel Paralell Studio for MAC OS from [here](https://software.intel.com/en-us/intel-parallel-studio-xe).
+   * Download Intel Parallel Studio for MAC OS from [here](https://software.intel.com/en-us/intel-parallel-studio-xe).
    * Double click on the dmg file and follow the instructions to install it.
-   * Add the following statement inside ~/.bash_profile file and restart the terminal.
+   * Add the following line in the .bash_profile file and restart the terminal.
 ```
    export DYLD_LIBRARY_PATH=/opt/intel/lib:/opt/intel/mkl/lib:$DYLD_LIBRARY_PATH
 ```
@@ -67,10 +67,4 @@ This document explains how to get the code to compile and run in MAC OS. First w
     sudo ./b2 install
 ```
 
-Now we have completed installation of dependencies. Now inorder to compile and run the code to compute the Gaussian lower bound for 5 users, coherence interval 20, and SNR values from 0 to 10, run
-
-```
-    cd Gaussian/build
-    make
-    ./run --K 5 --T 20 --MCX 20000 --startSNR 0 --deltaSNR 1 --endSNR 10
-```
+Our code should now work.

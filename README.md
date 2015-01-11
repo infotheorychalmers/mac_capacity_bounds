@@ -30,7 +30,7 @@ For example, if you want to compute the Gaussian lower bound for 5 users, cohere
 ```
 		run --K 5 --T 20 --MCX 20000 --startSNR 0 --deltaSNR 1 --endSNR 10
 ```
-Detailed instructions to compile and run the code in MAC is given [here](detailed.md).
+Detailed instructions on how to compile and run the code on a Mac OS X are given [here](detailed.md).
 
 
 	
